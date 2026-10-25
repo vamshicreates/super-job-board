@@ -8,31 +8,34 @@ export const Navbar: React.FC = () => {
         {/* Brand */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-lavender-600 to-lavender-800 flex items-center justify-center text-white shadow-button">
-            <Briefcase className="w-5 h-5 text-white" />
+            <span className="font-greek font-black text-lg">X</span>
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xl font-extrabold tracking-tight text-surface-darkText font-sans">
+              <span className="text-xl font-extrabold tracking-tight text-surface-darkText font-greek">
                 10x Job Hunt
               </span>
-              <span className="px-2 py-0.5 rounded-full text-[11px] font-semibold bg-lavender-100 text-lavender-700 border border-lavender-200">
-                Top 10 Matches
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-lavender-100 text-lavender-700 border border-lavender-200 uppercase font-greek">
+                Greek Modern Edition
               </span>
             </div>
             <p className="text-[11px] text-surface-mutedText hidden sm:block">
-              Drop your resume • Get the 10 best suitable job links
+              Let me get you a job • Strictly the 10 best suitable job links
             </p>
           </div>
         </div>
 
         {/* Right Info */}
-        <div className="flex items-center gap-2 text-xs font-medium text-surface-mutedText">
-          <span className="hidden md:flex items-center gap-1.5 text-lavender-700 bg-lavender-50 px-3 py-1 rounded-full border border-lavender-200">
-            <CheckCircle2 className="w-3.5 h-3.5 text-lavender-600" />
-            <span>Direct Employer Links • Zero Clutter</span>
-          </span>
+        <div className="flex items-center gap-3 text-xs font-medium text-surface-mutedText">
+          <a
+            href="#search-section"
+            className="hidden sm:flex items-center gap-1.5 text-lavender-700 hover:text-lavender-900 bg-lavender-50 px-3.5 py-1.5 rounded-full border border-lavender-200 transition-colors font-bold"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-lavender-600" />
+            <span>Drop Resume</span>
+          </a>
           <span className="text-slate-400 hidden sm:inline">•</span>
-          <span className="text-slate-600 font-semibold">LinkedIn Vibe</span>
+          <span className="text-slate-700 font-bold font-greek tracking-wider">White & Lavender</span>
         </div>
       </div>
     </header>

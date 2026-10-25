@@ -30,12 +30,14 @@ export default {
       },
       fontFamily: {
         sans: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        greek: ['Cinzel', 'Georgia', 'serif'],
       },
       boxShadow: {
         'clean': '0 1px 3px 0 rgba(75, 28, 145, 0.05), 0 1px 2px -1px rgba(75, 28, 145, 0.05)',
         'card': '0 4px 20px -2px rgba(130, 71, 229, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.02)',
-        'card-hover': '0 10px 30px -4px rgba(130, 71, 229, 0.14), 0 4px 10px -2px rgba(0, 0, 0, 0.03)',
+        'card-hover': '0 12px 36px -4px rgba(130, 71, 229, 0.16), 0 4px 12px -2px rgba(0, 0, 0, 0.04)',
         'button': '0 4px 14px 0 rgba(130, 71, 229, 0.35)',
+        'glow-lavender': '0 0 40px -5px rgba(130, 71, 229, 0.25)',
       }
     },
   },
